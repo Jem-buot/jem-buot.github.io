@@ -2,7 +2,7 @@ body {
   background-size: cover;
   background-position: 50%;
   overflow-x: hidden;
-  font-family: jokermen;
+  font-family:"Times New Roman" serif,monospace,sans-serif;
   font-size: 16px;
   line-height: 1.6;
   color: #000000;
@@ -176,7 +176,6 @@ html {
 }
 h1 {
  text-align:center;
- color:cyan;
 }
 h3 {
   text-align:center;
