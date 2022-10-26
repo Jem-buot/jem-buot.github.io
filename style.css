@@ -2,7 +2,7 @@ body {
   background-size: cover;
   background-position: 50%;
   overflow-x: hidden;
-  font-family:serif,monospace,sans-serif;
+  font-family: serif,monospace,sans-serif;
   font-size: 16px;
   line-height: 1.6;
   color: #000000;
@@ -66,15 +66,15 @@ html {
   align-items: center;
 }
 .btn {
-  width: 86%;
+  width: 90%;
   height: 3.5rem;
   line-height: 2rem;
   padding: 0.2rem;
   position: relative;
   display: inline-block;
   font-size: 20px;
-  text-decoration: 0;
-  text-transform: 0;
+  text-decoration: none;
+  text-transform: none;
   text-align: center;
   letter-spacing: 0rem;
   border-radius: 2rem;
@@ -86,10 +86,10 @@ html {
   border: 0;
 }
 .btn--primary {
-  margin-left: 2.5rem;
-  color: #000000;
-  background-color: cyan;
-  border: 2px solid cyan;
+  margin-left: 2rem;
+  color: #ffffff;
+  background-color: #0004;
+  border: 5px solid blue;
   box-shadow: 3px 3px -1px -1px rgb(10, 218, 37);
   /* margin-left: 2rem;
   color: #fff;
@@ -99,9 +99,9 @@ html {
     inset 0 2px 2px hsla(0, 0%, 100%, 0.2); */
 }
 .btn--primary:hover {
-  color: #000;
-  background: lightblue;
-  border: 2px solid cyan;
+  color: #ffffff;
+  background: #0004;
+  border: 5px solid cyan;
   box-shadow: 3px 3px -1px -1px #000000;
   /* background: #ca0e0e;
   background-image: linear-gradient(270deg, #b943b9, #ca0e0e);
@@ -163,22 +163,14 @@ html {
   border-radius: 5rem;
   background-image: linear-gradient(90deg, #1ee8cc, #19a3e0);
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .main {
   position: relative;
   width: 100%;
   height: 100%;
   z-index: 1;
-}
-.inner_wrapper {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-  border: 2px solid cyan;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1;
-  width: 90%;
-  padding: 25px;
-  text-align: center;
 }
