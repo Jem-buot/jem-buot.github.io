@@ -49,7 +49,7 @@ html {
 .videobgbox:after {
   content: "";
   display: block;
-  background: #0006;
+  background: #0004;
   background-size: 2px 2px;
   z-index: 0;
   width: 100%;
@@ -87,9 +87,9 @@ html {
 }
 .btn--primary {
   margin-left: 2rem;
-  color: #ffffff;
-  background-color: #0004;
-  border: 5px solid blue;
+  color: #000000;
+  background-color: powderblue;
+  border: 5px solid powderblue;
   box-shadow: 3px 3px -1px -1px rgb(10, 218, 37);
   /* margin-left: 2rem;
   color: #fff;
@@ -99,9 +99,9 @@ html {
     inset 0 2px 2px hsla(0, 0%, 100%, 0.2); */
 }
 .btn--primary:hover {
-  color: #ffffff;
-  background: #0004;
-  border: 5px solid cyan;
+  color: #000000;
+  background: powderblue;
+  border: 5px solid powderblue;
   box-shadow: 3px 3px -1px -1px #000000;
   /* background: #ca0e0e;
   background-image: linear-gradient(270deg, #b943b9, #ca0e0e);
