@@ -49,7 +49,7 @@ html {
 .videobgbox:after {
   content: "";
   display: block;
-  background: #0005;
+  background: #0004;
   background-size: 2px 2px;
   z-index: 0;
   width: 100%;
